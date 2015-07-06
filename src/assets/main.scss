@@ -1,0 +1,22 @@
+///- Landing
+html {
+	min-width: 1063px;
+	min-height: 700px
+}
+
+.topheader {
+	width: 125%
+
+	ul li {
+		text-decoration: none;
+		list-style: none;
+	}
+
+	ul li a:hover {
+		color: dark-gray;
+	}
+
+	ul li:nth-child(-n+2) a {
+		float: right;
+	}
+}
